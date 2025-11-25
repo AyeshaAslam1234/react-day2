@@ -1,16 +1,37 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🌟 Day-2 Tasks (React Learning Roadmap)
+1) Learn Concepts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Understand React State (useState): how to store and update values.
 
-## React Compiler
+Learn Props vs State difference.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Learn Event Handling in React (onClick, onChange).
 
-## Expanding the ESLint configuration
+2) Practice Tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Create a simple counter app (Increase, Decrease, Reset).
+
+Make a show/hide password input using state.
+
+Build a small To-Do list (add + delete items).
+
+3) Mini Implementation
+
+Make 3 components:
+
+Counter.jsx
+
+PasswordToggle.jsx
+
+Todo.jsx
+
+Import them in App.jsx to practice component structure.
+
+4) Optional (If time left)
+
+Style components with basic Tailwind or CSS.
+
+Add simple validation (don’t add empty todos).
